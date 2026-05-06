@@ -1,0 +1,252 @@
+html,
+.center {
+  margin: auto;
+}
+#startup{
+  background: #2a1f17;
+color: white;
+}
+.daily_Color {
+  margin-top: 5%;
+}
+.center{
+  margin: auto;
+}
+.home_color {
+  height: 10rem;
+  width: 10rem;
+  margin: auto;
+  border-radius: 5%;
+  background-color: #d54400;
+}
+
+.Wheel {
+  border-radius: 50%;
+  padding: 30px;
+  width: 200px;
+  background-image: conic-gradient(hsla(10, 100%, 50%, 1),
+      hsla(20, 100%, 50%, 1),
+      hsla(30, 100%, 50%, 1),
+      hsla(40, 100%, 50%, 1),
+      hsla(50, 100%, 50%, 1),
+      hsla(60, 100%, 50%, 1),
+      hsla(70, 100%, 50%, 1),
+      hsla(80, 100%, 50%, 1),
+      hsla(90, 100%, 50%, 1),
+      hsla(100, 100%, 50%, 1),
+      hsla(110, 100%, 50%, 1),
+      hsla(120, 100%, 50%, 1),
+      hsla(130, 100%, 50%, 1),
+      hsla(140, 100%, 50%, 1),
+      hsla(150, 100%, 50%, 1),
+      hsla(160, 100%, 50%, 1),
+      hsla(170, 100%, 50%, 1),
+      hsla(180, 100%, 50%, 1),
+      hsla(190, 100%, 50%, 1),
+      hsla(200, 100%, 50%, 1),
+      hsla(210, 100%, 50%, 1),
+      hsla(220, 100%, 50%, 1),
+      hsla(230, 100%, 50%, 1),
+      hsla(240, 100%, 50%, 1),
+      hsla(250, 100%, 50%, 1),
+      hsla(260, 100%, 50%, 1),
+      hsla(270, 100%, 50%, 1),
+      hsla(280, 100%, 50%, 1),
+      hsla(290, 100%, 50%, 1),
+      hsla(300, 100%, 50%, 1),
+      hsla(310, 100%, 50%, 1),
+      hsla(320, 100%, 50%, 1),
+      hsla(330, 100%, 50%, 1),
+      hsla(340, 100%, 50%, 1),
+      hsla(350, 100%, 50%, 1),
+      hsla(360, 100%, 50%, 1));
+}
+
+.background {
+  background-color: #543855;
+}
+.colorwheel {
+  margin: auto;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* border: 15px; */
+  background-color: white;
+}
+
+
+.inner-div{
+  background-color: white;
+}
+.colorResults {
+  /* border: 20px solid red; */
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  /* perspective: 1px; */
+
+}
+
+label {
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input {
+  margin: 1rem;
+}
+
+.Color {
+
+  height: 10rem;
+  width: 50%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+body {
+
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutText {
+  padding: 5%;
+  text-align: center;
+
+
+}
+
+.aboutText>p {
+  font-size: 100%;
+  line-height: 1rem;
+}
+
+.welcome {
+  height: 100vh;
+
+}
+
+main {
+  background-color: white;
+  color: black;
+}
+
+p {
+  font-size: 100%;
+  line-height: 0.5em;
+
+}
+
+.navbarOptions {
+  /* height: 10vh; */
+  background: #2a1f17;
+}
+
+.RC1 {
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.RC2 {
+  display: none;
+  overflow: hidden;
+
+}
+
+/* Hover */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background: hsl(188, 100%, 37%, 0);
+  color: white;
+  height: 10vh;
+  font-size: 3vh;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+  background-color: #d543006e;
+
+}
+
+.dropbtn:focus {
+  background-color: #d54400;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #d54400;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
