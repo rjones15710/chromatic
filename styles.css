@@ -127,7 +127,8 @@ body {
 .aboutText {
   padding: 5%;
   text-align: center;
-
+ background: #2a1f17;
+color: white;
 
 }
 
